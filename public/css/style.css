@@ -1,0 +1,15 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Consolas,Menlo,Monaco,"Lucida Console","Liberation Mono","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace,serif;
+}
+
+a {
+    color: #006fff;
+    text-decoration: none;
+}
+
+.create_at {
+  color: gray;
+  font-size: small;
+}
