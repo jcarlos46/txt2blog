@@ -13,3 +13,14 @@ a {
   color: gray;
   font-size: small;
 }
+
+.tile {
+    width: 360px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 360px;
+}

@@ -1,4 +1,4 @@
-<h1><a href="/">Blog</a></h1>
+<h1><a href="/">Site das Flores</a></h1>
 <article>
     <?php echo $article ?>
 </article>

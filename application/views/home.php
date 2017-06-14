@@ -1,9 +1,7 @@
-<h1><a href="/">Blog</a></h1>
-<h2>Bem-vindo ao blog das flores</h2>
-<?php foreach($titles as $title): ?>
-<h3>
-    <a href="/<?php echo $title['md5'] ?>"><?php echo $title['title'] ?></a>
-
-    <span class="create_at"><?php echo $title['create_at'] ?></span>
-</h3>
+<h1><a href="/">Site das Flores</a></h1>
+<?php foreach($articles as $article): ?>
+<div class="tile">
+<?php echo $article['content']; ?>
+<a href="<?php echo base_url($article['md5']) ?>">[link]</a>
+</div>
 <?php endforeach; ?>
